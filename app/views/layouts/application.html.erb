@@ -8,9 +8,10 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   </head>
-
   <body>
-   <%= link_to 'home', root_path %> <%= link_to 'profile', profile_path%> <%= link_to 'idea job', job_path%> <%= link_to 'project', project_path %>
-    <%= yield %>
+    <%= render "layouts/navbar" %>
+    <div class="content">
+      <%= yield %>
+    </div>
   </body>
 </html>
