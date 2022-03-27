@@ -67,12 +67,24 @@ body {
     display: inline-grid;
     grid-auto-flow: column;
 }
-.home-content{
-    padding: 70px;
+.inside-content{
+    padding: 3%;
+}
+.inside-content p{
+    font-size: 24px;
 }
 .my-photo{
     float: right;
     align-items: center;
     max-height: 500px;
     overflow: hidden;
+}
+.inside-title{
+    padding: 1%;
+}
+.project-content{
+    width: 60%;
+}
+table td, table td * {
+    vertical-align: top;
 }

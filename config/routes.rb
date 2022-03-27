@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get '/' => 'home#index'
   get '/job' => 'job#index'
   get '/profile' => 'profile#index'
-  get '/project' => 'project#index'
+  get '/project' => 'project_entry#index'
 end
